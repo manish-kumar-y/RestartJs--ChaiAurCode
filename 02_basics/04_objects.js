@@ -52,7 +52,7 @@ const obj3 = {7:"g",8:"h",9:"i"};
 
 // console.log(obj4);
 
-
+/*
 
 const myPr = [
     {
@@ -76,4 +76,22 @@ const myPr = [
 console.log(myPr[0].id);
 console.log(myPr[0].email);
 console.log(myPr[4].name);
+
+*/
+
+const course = {
+    courseName : "JavaScript",
+    chanelName : "CodeAurChai",
+    courseInstructor : "Hitesh Chaudhary",
+    courseFee : "Free"
+}
+// console.log(course.chanelName);
+
+const {courseInstructor : instructor} = course;
+console.log(instructor);
+
+const {courseName : cName} = course;
+console.log(cName);
+
+
 
