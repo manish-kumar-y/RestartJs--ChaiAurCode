@@ -52,6 +52,9 @@ addition(true, 8);
 
 */
 
+
+/*
+
 function loginUserMassage (username = "Yadav"){
       if (!username) {
         console.log("Plz enter argument")
@@ -64,4 +67,42 @@ console.log(loginUserMassage());
 console.log(loginUserMassage(""));
 console.log(loginUserMassage("Manish Kumar"));
 
+*/
 
+// factch Object data in function 
+
+/*
+
+const User = {
+      name : "Manish Kumar",
+      email : "info@gmail.com",
+      pass : 8765432,
+      isLoggedIn : false
+}
+
+function statusbar(valueUser){
+    return `Hi ${valueUser.name} , Your email is ${valueUser.email} and Your passwoed is ${valueUser.pass}.`
+}
+console.log(statusbar(User));
+
+console.log(statusbar({
+    name : "Yadav Ji",
+    pass : "IamHero",
+    email : "manish@gmail.com"
+}));
+
+
+*/
+
+
+// fatch Array data in functions 
+
+const numbers = [100,300,500,900,199,35];
+
+function value(arrayNum) {
+    return `${arrayNum[0]},${arrayNum[1]}`
+    
+}
+
+console.log(value(numbers));
+console.log(value([199,299,399,499,599]));
